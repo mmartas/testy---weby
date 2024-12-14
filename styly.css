@@ -264,10 +264,35 @@ input[type="submit"]:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.social-icons {
+    font-size: 32px;
+}
 
+.social-icons a {
+    margin-right: 20px;
+    color: white;
+}
 
+footer {
+    background: red;
+}
 
+.footer-text {
+    color: white;
+    padding: 10px 0;
+}
+.footer-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.fa-facebook:hover {
+    color: black;
+}
 
+.fa-instagram:hover {
+    color: black;
+}
 /* Stop Floating */
 .clearfix {zoom: 1}
 .clearfix::after {
