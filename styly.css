@@ -44,6 +44,7 @@ header {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(61, 26, 26, 0.7)), url(images/pizza.jpg);
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .header-text {
@@ -155,7 +156,7 @@ header {
 .our-sections3 {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(images/pizza.jpg);
     background-size: cover;
-
+    background-attachment: fixed;
 }
 
 .our-sections3 h2 {
