@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    width: 74.6%;
+    margin: 0 auto;
+}
+
+#logo img {
+    width: 150px;
+    position: absolute;
+    top: 5%;
+}
+
+nav ul {
+    float: right;
+    margin-top: 5%;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: wheat;
+    font-size: 25px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    border-bottom: 2px solid orange;
+    transition: border-bottom 0.5s;
+}
+
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(61, 26, 26, 0.7)), url(images/pizza.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    word-spacing: 3.5px;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    margin-top: 7px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background: red;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    transition: background 0.5s;
+    background: orange;
+    border: 1px solid orange;
+}
+
+.btn-empty:link,
+.btn-empty:visited {
+    margin-left: 10px;
+    background: transparent;
+}
+
+.btn-empty:hover,
+.btn-empty:active {
+    transition: background 1s;
+    background: orange;
+    border: 1px solid orange;
+}
+
+
+
+.heading-main {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.heading-main-line {
+    height: 2px;
+    background-color: orange;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.pizzas, .informations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pizza img, .info img{
+    width: 226px;
+    border-radius: 10px;
+}
+
+.text-pizza {
+    margin-bottom: 14px;
+    margin-top: 18px;
+}
+
+.text-pizza p {
+    margin-left: 70px;
+    font-size: 16px;
+    text-align: left;
+    padding: 17.4px 0;
+}
+
+
+.text-pizza div {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 25px;
+    float: left;
+}
+
+.info {
+    height: 226px;
+}
+
+
+.our-sections3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(images/pizza.jpg);
+    background-size: cover;
+
+}
+
+.our-sections3 h2 {
+    color: #fff;
+    padding-top: 40px;
+}
+
+.heading-main-line-white {
+    height: 2px;
+    background-color: #fff;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.customer-references {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-reference {
+    width: 330px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.customer-reference p {
+    font-style: italic;
+}
+
+.photo-name img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.photo-name {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.photo-name h3 {
+    padding: 13px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.photo-segment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 500px;
+}
+
+.photo-segment li {
+    background-color: black;
+    list-style: none;
+    overflow: hidden;
+}
+
+.photo-segment img {
+    /* border-radius: 10px; */
+    opacity: 0.5;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo-segment img:hover {
+    transform: scale(1);
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+
+
+
+
+
+
+
+/* Stop Floating */
+.clearfix {zoom: 1}
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
