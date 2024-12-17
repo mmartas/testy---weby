@@ -282,11 +282,13 @@ footer {
 .footer-text {
     color: white;
     padding: 10px 0;
+    text-align: right;
 }
 .footer-page {
     display: flex;
     justify-content: space-between;
     padding: 5px 0;
+    flex-wrap: wrap;
 }
 .fa-facebook:hover {
     color: black;
