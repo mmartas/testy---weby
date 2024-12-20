@@ -1,0 +1,74 @@
+/* CO O NÁS ŘEKLI NAŠI ZÁKAZNÍCI */
+@media only screen and (max-width: 1350px) {
+    .customer-references {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .customer-references.row {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .customer-references {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+/* O NAŠÍ PIZZE */
+@media only screen and (max-width: 1415px) {
+    .informations {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .info {
+        margin-bottom: 20px;
+    }
+}
+
+/* NAŠE PIZZA */
+@media only screen and (max-width: 1230px) {
+    .pizza-4 img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    .pizzas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .pizza-4 img {
+        display: block;
+    }
+}
+
+
+/* HLAVIČKA */
+@media only screen and (max-width: 720px) {
+    .header-text h1 {
+        text-align: center;
+    }
+
+    .header-text {
+        width: 100%;
+        transform: translate(0, 0);
+        left: 0;
+    }
+    
+    .btn {
+        display: block;
+        text-align: center;
+        margin: 7px 20px 0 20px;
+    }
+}

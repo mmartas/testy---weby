@@ -72,6 +72,7 @@ header {
     padding: 5px 10px;
     letter-spacing: 1px;
     margin-top: 7px;
+    margin-right: 10px;
 }
 
 .btn-full:link,
@@ -88,7 +89,6 @@ header {
 
 .btn-empty:link,
 .btn-empty:visited {
-    margin-left: 10px;
     background: transparent;
 }
 
