@@ -21,5 +21,14 @@
             $("html, body").animate({scrollTop: $(".jq--kontakt").offset().top}, 1000);
         });
 
+        // scroll buttons to sections
+        $(".jq--scroll-prvni-tlacitko").click(function(){
+            $("html, body").animate({scrollTop: $(".jq--nase-pizza").offset().top}, 1000);
+        });
+
+        $(".jq--scroll-druhe-tlacitko").click(function(){
+            $("html, body").animate({scrollTop: $(".jq--reference").offset().top}, 1000);
+        });
+
     });
 })(jQuery);
