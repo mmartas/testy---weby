@@ -72,3 +72,32 @@
         margin: 7px 20px 0 20px;
     }
 }
+/* MOBILE NAVIGATION */
+@media only screen and (max-width: 1195px) {
+    nav ul li {
+        display: block;
+    }
+
+    .nav-background {
+        /* display: none; */
+    }
+    .mobile-nav-back {
+        height: 170px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 1px solid wheat;
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        z-index: 100;
+        position: fixed;
+        right: -3%;
+    }
+
+    nav ul {
+        display: none;
+    }
+}

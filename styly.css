@@ -9,15 +9,18 @@
 }
 
 #logo img {
-    width: 150px;
-    position: absolute;
-    top: 5%;
+    width: 60px;
+    position: fixed;
+    top: 1%;
+    z-index: 9;
 }
 
 nav ul {
     float: right;
-    margin-top: 5%;
-
+    margin-top: 1.5%;
+    position: fixed;
+    margin-left: 35%;
+    z-index: 10;
 }
 
 nav ul li {
@@ -39,6 +42,22 @@ nav ul li a:active {
     transition: border-bottom 0.5s;
 }
 
+.nav-background {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 9;
+    border-bottom: 1px solid wheat;
+}
+
+.mobile-nav-icon {
+    float: right;
+    display: none;
+}
+.mobile-nav-icon img {
+    width: 60%;
+}
 
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(61, 26, 26, 0.7)), url(images/pizza.jpg);
@@ -99,12 +118,14 @@ header {
     border: 1px solid orange;
 }
 
-
+.empty-space {
+    height: 70px;
+}
 
 .heading-main {
     text-align: center;
     font-size: 30px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .heading-main-line {
@@ -161,7 +182,7 @@ header {
 
 .our-sections3 h2 {
     color: #fff;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
 .heading-main-line-white {
@@ -297,6 +318,7 @@ footer {
 .fa-instagram:hover {
     color: black;
 }
+
 /* Stop Floating */
 .clearfix {zoom: 1}
 .clearfix::after {

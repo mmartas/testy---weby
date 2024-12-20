@@ -30,5 +30,25 @@
             $("html, body").animate({scrollTop: $(".jq--reference").offset().top}, 1000);
         });
 
+        // mobile navigation
+        $(".jq--nav-icon").click(function(){
+
+            $(".nav-background").fadeToggle();
+            $(".mobile-nav-back").fadeToggle();
+            $("nav ul").fadeToggle();
+
+        });
+
+        $(".jq--image-hamburger").click(function() {
+
+        if($(".jq--image-hamburger").attr("src") == "images/menu_white.png")
+        {
+                $($(".jq--image-hamburger").attr("src", "images/cross_icon.png"));
+        }
+        else
+        {
+            $($(".jq--image-hamburger").attr("src", "images/menu_white.png"));
+        }
+        });
     });
 })(jQuery);
